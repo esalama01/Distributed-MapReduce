@@ -3,12 +3,10 @@ package main
 import(
 	"strings"
 )
-
 type KeyValue struct{
 	Key string
 	Value string
 }
-
 func Mapper(input_string string)[]KeyValue{
 	var my_list []KeyValue
 	words := strings.Fields(input_string)
